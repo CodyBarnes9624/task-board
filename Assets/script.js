@@ -21,7 +21,7 @@ function createTaskCard(task) {
                 dateClass = "warn"
                 } else if  (taskDates.isBefore(today)){
                 dateClass = 'late'
-                }
+                } 
     
             const taskCard = `
                 <div class="task-card ${dateClass}" id="${card.id}">
@@ -73,6 +73,7 @@ function renderTaskList() {
             $('#in-progress-cards').append(taskCard);
             break;
         case 'done': 
+            $(taskCard).addClass('done-cards');
             $('#done-cards').append(taskCard);
             break;
     }

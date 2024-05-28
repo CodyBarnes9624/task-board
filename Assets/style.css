@@ -41,14 +41,18 @@ body {
 }
 
 .warn{
-  background-color: rgb(255, 196, 0);
+  background-color: rgb(248, 202, 51);
 }
 
 .late{
-  background-color: rgb(163, 11, 11);
+  background-color: rgb(218, 63, 63);
 }
 
 .highlight {
   /* Add styles to highlight the lane */
   background-color: peachpuff;
+}
+
+.done-cards {
+  background-color: green;
 }
